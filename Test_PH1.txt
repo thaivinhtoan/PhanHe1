@@ -1,0 +1,26 @@
+﻿Kịch bản demo phân hệ 1
+1.Xem ds user
+-> Xem ds user
+->Thông tin về quyền của các user
+3. Tạo / Xóa user
+-> Tạo user
+sv1 -> user đã tồn tại
+-> Tạo user sv3/sv3
+Kiểm tra user sv3 đã dc tạo chưa? Bằng cách Xem ds user
+5. Cấp và thu hồi quyền của user sv3
+-> Cấp quyền cho user sv3
+Kiểm tra user sv3 có dc cấp quyền chưa?
+-> Thu hồi quyền của user sv3
+Kiểm tra user sv3 có bị thu hồi quyền chưa?
+
+
+4.	Tạo/ Xóa role
+
+GVien -> role đã tồn tại
+
+Tạo role: da
+7.	Cấp và thu hồi quyền cho role
+Cấp quyền create user, drop user cho role da
+
+6.	Cấp và thu hồi role của user 
+Cấp role da cho user sv3

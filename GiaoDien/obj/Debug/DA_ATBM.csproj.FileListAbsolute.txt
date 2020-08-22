@@ -1,0 +1,111 @@
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\GiaoDien.exe.config
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\GiaoDien.exe
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\GiaoDien.pdb
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\DA_ATBM.csprojAssemblyReference.cache
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.FormAdmin.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.FormLogin.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.Properties.Resources.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\DA_ATBM.csproj.GenerateResource.cache
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\DA_ATBM.csproj.CoreCompileInputs.cache
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\DA_ATBM.csproj.CopyComplete
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.exe
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.pdb
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.DsUser.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.User.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\Business_Logic_Layer.dll
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\Entity_Object.dll
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\Data_Access_Layer.dll
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\Business_Logic_Layer.pdb
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\Entity_Object.pdb
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\bin\Debug\Data_Access_Layer.pdb
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.FormQuyen.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.DropUser.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.TaoUser.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.Role.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.TaoRole.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.DropRole.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.FormQuyenUser.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.GrantPrivs.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.AuditAllForm.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.AuditConditionForm.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.CheckLogForm.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.LogManagementFrm.resources
+D:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\SourceCode\GiaoDien\obj\Debug\GiaoDien.FormObject.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe.config
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\GiaoDien.pdb
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.dll
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\Entity_Object.dll
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\Oracle.ManagedDataAccess.dll
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.dll
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.pdb
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\Entity_Object.pdb
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.pdb
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csprojAssemblyReference.cache
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.AuditAllForm.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.AuditConditionForm.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.CheckLogForm.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DropRole.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DropUser.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DsUser.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormAdmin.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormLogin.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormObject.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyen.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenUser.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantPrivs.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.LogManagementFrm.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Properties.Resources.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Role.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.TaoRole.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.TaoUser.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.User.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.GenerateResource.cache
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CoreCompileInputs.cache
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CopyComplete
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.exe
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.pdb
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DsRole.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantRole.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenRole.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantRole_User.resources
+d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Quyen_Role.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe.config
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.dll
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Entity_Object.dll
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.dll
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Entity_Object.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csprojAssemblyReference.cache
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.AuditAllForm.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.AuditConditionForm.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.CheckLogForm.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DropRole.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DropUser.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DsRole.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DsUser.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormAdmin.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormLogin.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormObject.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyen.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenRole.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenUser.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantPrivs.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantRole.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantRole_User.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.LogManagementFrm.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Properties.Resources.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Quyen_Role.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Role.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.TaoRole.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.TaoUser.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.User.resources
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.GenerateResource.cache
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CoreCompileInputs.cache
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CopyComplete
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.exe
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.pdb
