@@ -61,13 +61,7 @@ namespace GiaoDien
             }
 
         }
-        
-        private void GrantRole_User_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form f = new User();
-            f.ShowDialog();
-            this.Close();
-        }
+
+
     }
 }

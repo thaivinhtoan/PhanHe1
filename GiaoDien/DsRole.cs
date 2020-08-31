@@ -33,5 +33,6 @@ namespace GiaoDien
             f.ShowDialog();
             this.Close();
         }
+
     }
 }

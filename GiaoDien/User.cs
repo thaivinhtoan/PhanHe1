@@ -23,7 +23,7 @@ namespace GiaoDien
             this.Hide();
             Form DsUser = new DsUser();
             DsUser.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button_TaoUser_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace GiaoDien
             this.Hide();
             Form TaoUser = new TaoUser();
             TaoUser.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button_XoaUser_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace GiaoDien
             this.Hide();
             Form drop_user = new DropUser();
             drop_user.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button_CapQuyenUser_Click(object sender, EventArgs e)
@@ -47,7 +47,7 @@ namespace GiaoDien
             this.Hide();
             Form grant_privs_user = new GrantPrivs();
             grant_privs_user.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button_ThongTinVeQuyenUser_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace GiaoDien
             this.Hide();
             Form QuyenUser = new FormQuyenUser();
             QuyenUser.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void User_FormClosing(object sender, FormClosingEventArgs e)
@@ -63,7 +63,7 @@ namespace GiaoDien
             this.Hide();
             Form fadmin = new FormAdmin();
             fadmin.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -71,7 +71,7 @@ namespace GiaoDien
             this.Hide();
             Form grole_user = new GrantRole_User();
             grole_user.ShowDialog();
-            this.Close();
+            this.Show();
         }
     }
 }

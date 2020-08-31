@@ -71,15 +71,6 @@ d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Gr
 d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenRole.resources
 d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantRole_User.resources
 d:\LONG\LEARNING\Year 3\Term 2\ATBM-TT\DA\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Quyen_Role.resources
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe.config
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.pdb
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.dll
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Entity_Object.dll
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.dll
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.pdb
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Entity_Object.pdb
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.pdb
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csprojAssemblyReference.cache
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.AuditAllForm.resources
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.AuditConditionForm.resources
@@ -91,7 +82,6 @@ C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DsUser.resour
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormAdmin.resources
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormLogin.resources
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormObject.resources
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyen.resources
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenRole.resources
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenUser.resources
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantPrivs.resources
@@ -106,6 +96,15 @@ C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.TaoUser.resou
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.User.resources
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.GenerateResource.cache
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CoreCompileInputs.cache
-C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CopyComplete
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.exe
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\GiaoDien.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe.config
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\GiaoDien.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.dll
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Entity_Object.dll
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.dll
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Entity_Object.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.pdb
+C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CopyComplete

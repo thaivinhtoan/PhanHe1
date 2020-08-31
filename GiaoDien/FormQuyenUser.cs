@@ -27,13 +27,6 @@ namespace GiaoDien
             comboBox_dsQuyen.DisplayMember = "username";
         }
 
-        private void button_search_Click(object sender, EventArgs e)
-        {
-            var username = comboBox_dsQuyen.Text;
-            BLL bll = new BLL();
-            var quyen = bll.Lay_DsQuyen(username);
-            ListQuyen_To_ListView(listView_ThongTinQuyen, quyen);
-        }
         private void ListQuyen_To_ListView(ListView listView_ThongTinQuyen, List<Quyen> quyen)
         {
             listView_ThongTinQuyen.Items.Clear();
@@ -51,17 +44,13 @@ namespace GiaoDien
             }
         }
 
-        private void button_Cancle_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
-        private void FormQuyenUser_FormClosing(object sender, FormClosingEventArgs e)
+        private void comboBox_dsQuyen_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.Hide();
-            Form f = new User();
-            f.ShowDialog();
-            this.Close();
+            var username = comboBox_dsQuyen.Text;
+            BLL bll = new BLL();
+            var quyen = bll.Lay_DsQuyen(username);
+            ListQuyen_To_ListView(listView_ThongTinQuyen, quyen);
         }
     }
 }

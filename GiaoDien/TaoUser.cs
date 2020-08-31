@@ -45,21 +45,13 @@ namespace GiaoDien
                     }
                     ngdung = services.Create_user(create_user);
                     MessageBox.Show("Tạo user thành công", "*****THÔNG BÁO*****");
+                    textBox1_Password.Text = "";
+                    textBox_password_confirm.Text = "";
+                    textBox_username.Text = "";
                 }
             }
         }
 
-        private void button_Cancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void TaoUser_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form f = new User();
-            f.ShowDialog();
-            this.Close();
-        }
+      
     }
 }

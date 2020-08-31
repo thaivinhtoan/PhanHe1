@@ -57,7 +57,7 @@ namespace Data_Access_Layer
             OracleConnection conn = Connect();
             OracleCommand orc = new OracleCommand();
             orc.Connection = conn;
-            orc.CommandText = "SELECT * FROM DBA_ROLES;";
+            orc.CommandText = "select role from dba_roles";
             var er = orc.ExecuteReader();
             while (er.Read())
             {
@@ -207,20 +207,11 @@ namespace Data_Access_Layer
             OracleConnection conn = Connect();
             OracleCommand orc = new OracleCommand();
             orc.Connection = conn;
-            if (cq.option == "")
-            {
-                orc.CommandText = "begin sp_grant_user('" + cq.username + "','" + cq.name_privs + "'); END;";
-            }
-            else
-            {
-                orc.CommandText = "begin sp_grant('" + cq.username + "','" + cq.name_privs + "','" + cq.option + "'); END;";
-
-            }
-            //orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
-            //orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
-            //orc.Parameters.Add(new OracleParameter("option", OracleDbType.Varchar2)).Value = $"{cq.option}";
-            //orc.CommandType = System.Data.CommandType.StoredProcedure;
-            //string hi = orc.ToString();
+            orc.CommandText = "sp_grant";
+            orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
+            orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
+            orc.Parameters.Add(new OracleParameter("option", OracleDbType.Varchar2)).Value = $"{cq.option}";
+            orc.CommandType = System.Data.CommandType.StoredProcedure;
             orc.ExecuteNonQuery();
             conn.Close();
             return cq;
@@ -232,11 +223,10 @@ namespace Data_Access_Layer
             OracleConnection conn = Connect();
             OracleCommand orc = new OracleCommand();
             orc.Connection = conn;
-            orc.CommandText = "begin sp_revoke_user('" + cq.username + "','" + cq.name_privs + "'); END;";
-            //orc.CommandText = "sp_revoke_user";
-            //orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
-            //orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
-            //orc.CommandType = System.Data.CommandType.StoredProcedure;
+            orc.CommandText = "sp_revoke_user";
+            orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
+            orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
+            orc.CommandType = System.Data.CommandType.StoredProcedure;
             orc.ExecuteNonQuery();
             conn.Close();
             return cq;
@@ -247,10 +237,10 @@ namespace Data_Access_Layer
             OracleConnection conn = Connect();
             OracleCommand orc = new OracleCommand();
             orc.Connection = conn;
-            orc.CommandText = "begin sp_grant_role('" + cq.username + "','" + cq.name_privs + "'); end;";
-            //orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
-            //orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
-            //orc.CommandType = System.Data.CommandType.StoredProcedure;
+            orc.CommandText = "sp_grant_role";
+            orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
+            orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
+            orc.CommandType = System.Data.CommandType.StoredProcedure;
             orc.ExecuteNonQuery();
             conn.Close();
             return cq;
@@ -261,10 +251,10 @@ namespace Data_Access_Layer
             OracleConnection conn = Connect();
             OracleCommand orc = new OracleCommand();
             orc.Connection = conn;
-            orc.CommandText = "begin sp_revoke_role('" + cq.username + "','" + cq.name_privs + "'); end;";
-            //orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
-            //orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
-            //orc.CommandType = System.Data.CommandType.StoredProcedure;
+            orc.CommandText = "sp_revoke_role";
+            orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
+            orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
+            orc.CommandType = System.Data.CommandType.StoredProcedure;
             orc.ExecuteNonQuery();
             conn.Close();
             return cq;
@@ -275,10 +265,10 @@ namespace Data_Access_Layer
             OracleConnection conn = Connect();
             OracleCommand orc = new OracleCommand();
             orc.Connection = conn;
-            orc.CommandText = "begin sp_grant_role_user('" + cq.username + "','" + cq.name_privs + "'); end;";
-            //orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
-            //orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
-            //orc.CommandType = System.Data.CommandType.StoredProcedure;
+            orc.CommandText = "sp_grant_role_user";
+            orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
+            orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
+            orc.CommandType = System.Data.CommandType.StoredProcedure;
             orc.ExecuteNonQuery();
             conn.Close();
             return cq;
@@ -289,10 +279,10 @@ namespace Data_Access_Layer
             OracleConnection conn = Connect();
             OracleCommand orc = new OracleCommand();
             orc.Connection = conn;
-            orc.CommandText = "begin sp_revoke_role_user('" + cq.username + "','" + cq.name_privs + "'); end;";
-            //orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
-            //orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
-            //orc.CommandType = System.Data.CommandType.StoredProcedure;
+            orc.CommandText = "sp_revoke_role_user";
+            orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
+            orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
+            orc.CommandType = System.Data.CommandType.StoredProcedure;
             orc.ExecuteNonQuery();
             conn.Close();
             return cq;

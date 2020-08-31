@@ -45,12 +45,5 @@ namespace GiaoDien
 
         }
 
-        private void FormObject_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form fadmin = new FormAdmin();
-            fadmin.ShowDialog();
-            this.Close();
-        }
     }
 }

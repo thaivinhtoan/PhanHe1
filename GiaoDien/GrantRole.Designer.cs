@@ -43,9 +43,10 @@
             this.button_Revoke.BackColor = System.Drawing.Color.Red;
             this.button_Revoke.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Revoke.ForeColor = System.Drawing.Color.White;
-            this.button_Revoke.Location = new System.Drawing.Point(326, 267);
+            this.button_Revoke.Location = new System.Drawing.Point(241, 185);
+            this.button_Revoke.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button_Revoke.Name = "button_Revoke";
-            this.button_Revoke.Size = new System.Drawing.Size(110, 39);
+            this.button_Revoke.Size = new System.Drawing.Size(82, 32);
             this.button_Revoke.TabIndex = 49;
             this.button_Revoke.Text = "Revoke";
             this.button_Revoke.UseVisualStyleBackColor = false;
@@ -56,9 +57,10 @@
             this.button_grant.BackColor = System.Drawing.Color.Green;
             this.button_grant.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_grant.ForeColor = System.Drawing.Color.White;
-            this.button_grant.Location = new System.Drawing.Point(209, 267);
+            this.button_grant.Location = new System.Drawing.Point(154, 185);
+            this.button_grant.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button_grant.Name = "button_grant";
-            this.button_grant.Size = new System.Drawing.Size(110, 39);
+            this.button_grant.Size = new System.Drawing.Size(82, 32);
             this.button_grant.TabIndex = 48;
             this.button_grant.Text = "Grant";
             this.button_grant.UseVisualStyleBackColor = false;
@@ -80,18 +82,20 @@
             "create procedure",
             "drop any procedure",
             "drop any table"});
-            this.comboBox_ListQuyen.Location = new System.Drawing.Point(209, 196);
+            this.comboBox_ListQuyen.Location = new System.Drawing.Point(154, 127);
+            this.comboBox_ListQuyen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox_ListQuyen.Name = "comboBox_ListQuyen";
-            this.comboBox_ListQuyen.Size = new System.Drawing.Size(227, 24);
+            this.comboBox_ListQuyen.Size = new System.Drawing.Size(171, 21);
             this.comboBox_ListQuyen.TabIndex = 47;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(31, 195);
+            this.label3.Location = new System.Drawing.Point(20, 126);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 25);
+            this.label3.Size = new System.Drawing.Size(109, 20);
             this.label3.TabIndex = 46;
             this.label3.Text = "Chọn quyền:";
             // 
@@ -99,18 +103,20 @@
             // 
             this.comboBox_ListRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_ListRole.FormattingEnabled = true;
-            this.comboBox_ListRole.Location = new System.Drawing.Point(209, 136);
+            this.comboBox_ListRole.Location = new System.Drawing.Point(154, 78);
+            this.comboBox_ListRole.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox_ListRole.Name = "comboBox_ListRole";
-            this.comboBox_ListRole.Size = new System.Drawing.Size(227, 24);
+            this.comboBox_ListRole.Size = new System.Drawing.Size(171, 21);
             this.comboBox_ListRole.TabIndex = 45;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(31, 135);
+            this.label1.Location = new System.Drawing.Point(20, 78);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 25);
+            this.label1.Size = new System.Drawing.Size(91, 20);
             this.label1.TabIndex = 44;
             this.label1.Text = "Chọn role:";
             // 
@@ -119,27 +125,30 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(29, 28);
+            this.label2.Location = new System.Drawing.Point(2, 20);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(428, 39);
+            this.label2.Size = new System.Drawing.Size(451, 32);
             this.label2.TabIndex = 43;
-            this.label2.Text = "Cấp/thu hồi quyền của role";
+            this.label2.Text = "CẤP/THU HỒI QUYỀN CỦA ROLE";
             // 
             // checkBox_option
             // 
             this.checkBox_option.AutoSize = true;
-            this.checkBox_option.Location = new System.Drawing.Point(460, 198);
+            this.checkBox_option.Location = new System.Drawing.Point(342, 129);
+            this.checkBox_option.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox_option.Name = "checkBox_option";
-            this.checkBox_option.Size = new System.Drawing.Size(139, 21);
+            this.checkBox_option.Size = new System.Drawing.Size(108, 17);
             this.checkBox_option.TabIndex = 50;
             this.checkBox_option.Text = "with admin option";
             this.checkBox_option.UseVisualStyleBackColor = true;
             // 
             // GrantRole
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 317);
+            this.BackColor = System.Drawing.Color.SeaGreen;
+            this.ClientSize = new System.Drawing.Size(461, 232);
             this.Controls.Add(this.checkBox_option);
             this.Controls.Add(this.button_Revoke);
             this.Controls.Add(this.button_grant);
@@ -148,12 +157,13 @@
             this.Controls.Add(this.comboBox_ListRole);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GrantRole";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GrantRole";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GrantRole_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

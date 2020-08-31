@@ -34,12 +34,5 @@ namespace GiaoDien
             MessageBox.Show("Tạo role thành công", "*****THÔNG BÁO*****");
         }
 
-        private void TaoRole_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form f = new Role();
-            f.ShowDialog();
-            this.Close();
-        }
     }
 }

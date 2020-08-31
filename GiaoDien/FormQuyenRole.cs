@@ -26,13 +26,7 @@ namespace GiaoDien
             comboBox_DsRole.DisplayMember = "username";
         }
 
-        private void button_search_Click(object sender, EventArgs e)
-        {
-            var rolename = comboBox_DsRole.Text;
-            BLL bll = new BLL();
-            var quyen = bll.Lay_DsQuyen_UngVoiRole(rolename);
-            ListQuyen_To_ListView(listView_ThongTinQuyen, quyen);
-        }
+
         private void ListQuyen_To_ListView(ListView listView_ThongTinQuyen, List<string> quyen)
         {
             listView_ThongTinQuyen.Items.Clear();
@@ -45,17 +39,14 @@ namespace GiaoDien
             }
         }
 
-        private void button_Cancle_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
-        private void FormQuyenRole_FormClosing(object sender, FormClosingEventArgs e)
+
+        private void comboBox_DsRole_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.Hide();
-            Form f = new Role();
-            f.ShowDialog();
-            this.Close();
+            var rolename = comboBox_DsRole.Text;
+            BLL bll = new BLL();
+            var quyen = bll.Lay_DsQuyen_UngVoiRole(rolename);
+            ListQuyen_To_ListView(listView_ThongTinQuyen, quyen);
         }
     }
 }

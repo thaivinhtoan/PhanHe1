@@ -27,12 +27,6 @@ namespace GiaoDien
 
         private void button_grant_Click(object sender, EventArgs e)
         {
-            //BLL bll = new BLL();
-            //var capquyen = new Entity_Object.CapQuyen();
-            //capquyen.username = comboBox_ListRole.Text;
-            //capquyen.name_privs = comboBox_ListQuyen.Text;
-            //var grant = bll.Grant_privs_Role(capquyen);
-            //MessageBox.Show("Grant quyền cho role thành công", "*****THÔNG BÁO*****");
             BLL bll = new BLL();
             var capquyen_option = new Entity_Object.CapQuyenOption();
             capquyen_option.username = comboBox_ListRole.Text;
@@ -62,12 +56,5 @@ namespace GiaoDien
             }                      
         }
 
-        private void GrantRole_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form role = new Role();
-            role.ShowDialog();
-            this.Close();
-        }
     }
 }

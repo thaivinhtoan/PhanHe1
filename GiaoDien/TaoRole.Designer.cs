@@ -31,7 +31,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox_rolename = new System.Windows.Forms.TextBox();
             this.MSSV = new System.Windows.Forms.Label();
-            this.button_Cancel = new System.Windows.Forms.Button();
             this.button_Submit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -40,18 +39,20 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(123, 9);
+            this.label2.Location = new System.Drawing.Point(92, 7);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 48);
+            this.label2.Size = new System.Drawing.Size(189, 39);
             this.label2.TabIndex = 39;
-            this.label2.Text = "Tạo role";
+            this.label2.Text = "TẠO ROLE";
             // 
             // textBox_rolename
             // 
             this.textBox_rolename.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_rolename.Location = new System.Drawing.Point(159, 112);
+            this.textBox_rolename.Location = new System.Drawing.Point(119, 91);
+            this.textBox_rolename.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox_rolename.Name = "textBox_rolename";
-            this.textBox_rolename.Size = new System.Drawing.Size(262, 30);
+            this.textBox_rolename.Size = new System.Drawing.Size(198, 26);
             this.textBox_rolename.TabIndex = 38;
             // 
             // MSSV
@@ -59,52 +60,41 @@
             this.MSSV.AutoEllipsis = true;
             this.MSSV.BackColor = System.Drawing.Color.SandyBrown;
             this.MSSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MSSV.Location = new System.Drawing.Point(19, 109);
+            this.MSSV.Location = new System.Drawing.Point(14, 89);
+            this.MSSV.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MSSV.Name = "MSSV";
-            this.MSSV.Size = new System.Drawing.Size(134, 37);
+            this.MSSV.Size = new System.Drawing.Size(100, 30);
             this.MSSV.TabIndex = 37;
             this.MSSV.Text = "Role name:";
             this.MSSV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button_Cancel
-            // 
-            this.button_Cancel.BackColor = System.Drawing.Color.SandyBrown;
-            this.button_Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Cancel.ForeColor = System.Drawing.Color.Black;
-            this.button_Cancel.Location = new System.Drawing.Point(281, 186);
-            this.button_Cancel.Name = "button_Cancel";
-            this.button_Cancel.Size = new System.Drawing.Size(140, 53);
-            this.button_Cancel.TabIndex = 41;
-            this.button_Cancel.Text = "Cancel";
-            this.button_Cancel.UseVisualStyleBackColor = false;
             // 
             // button_Submit
             // 
             this.button_Submit.BackColor = System.Drawing.Color.SandyBrown;
             this.button_Submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Submit.ForeColor = System.Drawing.Color.Black;
-            this.button_Submit.Location = new System.Drawing.Point(90, 186);
+            this.button_Submit.Location = new System.Drawing.Point(119, 140);
+            this.button_Submit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button_Submit.Name = "button_Submit";
-            this.button_Submit.Size = new System.Drawing.Size(140, 53);
+            this.button_Submit.Size = new System.Drawing.Size(174, 43);
             this.button_Submit.TabIndex = 40;
-            this.button_Submit.Text = "Submit";
+            this.button_Submit.Text = "TẠO ROLE";
             this.button_Submit.UseVisualStyleBackColor = false;
             this.button_Submit.Click += new System.EventHandler(this.button_Submit_Click);
             // 
             // TaoRole
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(455, 258);
-            this.Controls.Add(this.button_Cancel);
+            this.BackColor = System.Drawing.Color.SeaGreen;
+            this.ClientSize = new System.Drawing.Size(341, 210);
             this.Controls.Add(this.button_Submit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox_rolename);
             this.Controls.Add(this.MSSV);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "TaoRole";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TaoRole";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TaoRole_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,7 +105,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox_rolename;
         private System.Windows.Forms.Label MSSV;
-        private System.Windows.Forms.Button button_Cancel;
         private System.Windows.Forms.Button button_Submit;
     }
 }

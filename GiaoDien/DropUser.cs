@@ -21,11 +21,6 @@ namespace GiaoDien
             LoadDsUser();
         }
 
-        private void button_Cancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void button_Submit_Click(object sender, EventArgs e)
         {
             var services = new BLL();
@@ -36,14 +31,6 @@ namespace GiaoDien
             
         }
 
-        
-
-        //private void ListUser_To_ComBo_Box(ComboBox comboBox_DsUser, List<DanhSachUser> danhsachuser)
-        //{
-        //    comboBox_DsUser.Items.Clear();
-        //    comboBox_DsUser.DataSource = ds
-        //}
-
         private void LoadDsUser()
         {
             BLL bll = new BLL();
@@ -52,18 +39,6 @@ namespace GiaoDien
             comboBox_ListUser.DisplayMember = "username";
         }
 
-        private void comboBox_ListUser_SelectionChangeCommitted(object sender, EventArgs e)
-        {
-    //        DanhSachUser ds = comboBox_ListUser.SelectedItem as DanhSachUser;
 
-        }
-
-        private void DropUser_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form f = new User();
-            f.ShowDialog();
-            this.Close();
-        }
     }
 }

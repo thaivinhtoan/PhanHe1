@@ -32,9 +32,7 @@
             this.Grantee = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.comboBox_DsRole = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button_Cancle = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button_search = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView_ThongTinQuyen
@@ -43,9 +41,10 @@
             this.Grantee});
             this.listView_ThongTinQuyen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView_ThongTinQuyen.HideSelection = false;
-            this.listView_ThongTinQuyen.Location = new System.Drawing.Point(15, 123);
+            this.listView_ThongTinQuyen.Location = new System.Drawing.Point(11, 100);
+            this.listView_ThongTinQuyen.Margin = new System.Windows.Forms.Padding(2);
             this.listView_ThongTinQuyen.Name = "listView_ThongTinQuyen";
-            this.listView_ThongTinQuyen.Size = new System.Drawing.Size(438, 202);
+            this.listView_ThongTinQuyen.Size = new System.Drawing.Size(330, 226);
             this.listView_ThongTinQuyen.TabIndex = 33;
             this.listView_ThongTinQuyen.UseCompatibleStateImageBehavior = false;
             this.listView_ThongTinQuyen.View = System.Windows.Forms.View.Details;
@@ -59,73 +58,51 @@
             // 
             this.comboBox_DsRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_DsRole.FormattingEnabled = true;
-            this.comboBox_DsRole.Location = new System.Drawing.Point(174, 73);
+            this.comboBox_DsRole.Location = new System.Drawing.Point(130, 59);
+            this.comboBox_DsRole.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox_DsRole.Name = "comboBox_DsRole";
-            this.comboBox_DsRole.Size = new System.Drawing.Size(279, 24);
+            this.comboBox_DsRole.Size = new System.Drawing.Size(210, 21);
             this.comboBox_DsRole.TabIndex = 38;
+            this.comboBox_DsRole.SelectedIndexChanged += new System.EventHandler(this.comboBox_DsRole_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 73);
+            this.label1.Location = new System.Drawing.Point(23, 59);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 25);
+            this.label1.Size = new System.Drawing.Size(91, 20);
             this.label1.TabIndex = 37;
             this.label1.Text = "Chọn role:";
-            // 
-            // button_Cancle
-            // 
-            this.button_Cancle.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button_Cancle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Cancle.ForeColor = System.Drawing.Color.White;
-            this.button_Cancle.Location = new System.Drawing.Point(318, 362);
-            this.button_Cancle.Name = "button_Cancle";
-            this.button_Cancle.Size = new System.Drawing.Size(135, 42);
-            this.button_Cancle.TabIndex = 36;
-            this.button_Cancle.Text = "Cancel";
-            this.button_Cancle.UseVisualStyleBackColor = false;
-            this.button_Cancle.Click += new System.EventHandler(this.button_Cancle_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(8, 9);
+            this.label2.Location = new System.Drawing.Point(30, 9);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(409, 39);
+            this.label2.Size = new System.Drawing.Size(281, 31);
             this.label2.TabIndex = 35;
-            this.label2.Text = "Thông tin về role của user";
-            // 
-            // button_search
-            // 
-            this.button_search.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_search.ForeColor = System.Drawing.Color.White;
-            this.button_search.Location = new System.Drawing.Point(152, 362);
-            this.button_search.Name = "button_search";
-            this.button_search.Size = new System.Drawing.Size(133, 42);
-            this.button_search.TabIndex = 34;
-            this.button_search.Text = "Search";
-            this.button_search.UseVisualStyleBackColor = false;
-            this.button_search.Click += new System.EventHandler(this.button_search_Click);
+            this.label2.Text = "DS ROLE CỦA USER";
             // 
             // FormQuyenRole
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 415);
+            this.BackColor = System.Drawing.Color.SeaGreen;
+            this.ClientSize = new System.Drawing.Size(351, 337);
             this.Controls.Add(this.listView_ThongTinQuyen);
             this.Controls.Add(this.comboBox_DsRole);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button_Cancle);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button_search);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormQuyenRole";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormQuyenRole";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormQuyenRole_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,8 +114,6 @@
         private System.Windows.Forms.ColumnHeader Grantee;
         private System.Windows.Forms.ComboBox comboBox_DsRole;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button_Cancle;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button_search;
     }
 }

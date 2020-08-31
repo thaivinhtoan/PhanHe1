@@ -39,13 +39,5 @@ namespace GiaoDien
             }
         }
 
-
-        private void DsUser_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form us = new User();
-            us.ShowDialog();
-            this.Close();
-        }
     }
 }

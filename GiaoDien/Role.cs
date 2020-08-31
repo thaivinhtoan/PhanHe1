@@ -57,13 +57,6 @@ namespace GiaoDien
             this.Close();
         }
 
-        private void Role_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form Formad = new FormAdmin();
-            Formad.ShowDialog();
-            this.Close();
-        }
 
         private void button_ThongTinQuyenCuaRole_Click(object sender, EventArgs e)
         {

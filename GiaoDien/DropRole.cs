@@ -37,17 +37,5 @@ namespace GiaoDien
             MessageBox.Show("Drop role thành công", "*****THÔNG BÁO*****");
         }
 
-        private void button_Cancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void DropRole_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form f = new Role();
-            f.ShowDialog();
-            this.Close();
-        }
     }
 }
