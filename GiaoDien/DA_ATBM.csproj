@@ -53,6 +53,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuditAllForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuditAllForm.Designer.cs">
+      <DependentUpon>AuditAllForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuditConditionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuditConditionForm.Designer.cs">
+      <DependentUpon>AuditConditionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckLogForm.Designer.cs">
+      <DependentUpon>CheckLogForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DropRole.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +143,12 @@
     <Compile Include="GrantRole_User.Designer.cs">
       <DependentUpon>GrantRole_User.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogManagementFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogManagementFrm.Designer.cs">
+      <DependentUpon>LogManagementFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quyen_Role.cs">
@@ -157,6 +181,15 @@
     <Compile Include="User.Designer.cs">
       <DependentUpon>User.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AuditAllForm.resx">
+      <DependentUpon>AuditAllForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditConditionForm.resx">
+      <DependentUpon>AuditConditionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckLogForm.resx">
+      <DependentUpon>CheckLogForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DropRole.resx">
       <DependentUpon>DropRole.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GrantRole_User.resx">
       <DependentUpon>GrantRole_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogManagementFrm.resx">
+      <DependentUpon>LogManagementFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
