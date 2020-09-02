@@ -34,13 +34,6 @@ namespace GiaoDien
             this.Show();
         }
 
-        private void button_QuanLyNhatKy_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form LogManagementFrm = new LogManagementFrm();
-            LogManagementFrm.ShowDialog();
-            this.Show();
-        }
 
         private void button_Xemdoituong_Click(object sender, EventArgs e)
         {

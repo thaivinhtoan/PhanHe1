@@ -9,11 +9,7 @@ namespace Business_Logic_Layer
 {
     public class BLL
     {
-        public System.Data.DataSet get_Log()
-        {
-            DAL respon = new DAL();
-            return respon.get_log();
-        }
+
         public List<DanhSachUser> get_DsUser()
         {
             List<DanhSachUser> ds = new List<DanhSachUser>();
@@ -150,12 +146,7 @@ namespace Business_Logic_Layer
             var respon = new DAL();
             return respon.Revoke_Priv_In_Database(capquyen);
         }
-        //Grant quyen cho role
-        public CapQuyen Grant_privs_Role(CapQuyen capquyen)
-        {
-            var respon = new DAL();
-            return respon.Grant_Priv_Role_In_Database(capquyen);
-        }
+
         //Revoke quyen cho role
         public CapQuyen Revoke_privs_Role(CapQuyen capquyen)
         {
@@ -179,18 +170,9 @@ namespace Business_Logic_Layer
             var respon = new DAL();
             return respon.Grant_Priv_With_Admin_Option_In_Database(capquyenoption);
         }
-        public List<USER_OBJECT> GetAllUserObject()
-        {
-            var respon = new DAL();
-            return respon.GetAllUserObject();
-        }
-        //Vy
-        public bool Audit(string username, List<string> actions, bool successful, bool notsuccessful)
-        {
-            var respon = new DAL();
-            return respon.Audit(username, actions, successful, notsuccessful);
-        }
-        //Phương
+
+
+
         public List<Entity_Object.Object> get_DsObject()
         {
             DAL respon = new DAL();

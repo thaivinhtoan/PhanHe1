@@ -24,18 +24,7 @@ namespace Data_Access_Layer
             con.Open();
             return con;
         }
-        // Vy
-        public DataSet get_log()
-        {
-            OracleConnection conn = Connect();
-            string command = "select username, owner, obj_name, action_name, sql_text, EXTENDED_TIMESTAMP from DBA_AUDIT_TRAIL";
-            OracleDataAdapter adapter = new OracleDataAdapter(command, conn);
-            var ds = new DataSet();
-            adapter.Fill(ds);
-            conn.Close();
-            return ds;
-        }
-        //Long
+
         public List<DanhSachUser> Get_DsUser_From_Database()
         {
             var dsuser = new List<DanhSachUser>();
@@ -231,20 +220,7 @@ namespace Data_Access_Layer
             conn.Close();
             return cq;
         }
-        //Grant quyen cho role
-        public CapQuyen Grant_Priv_Role_In_Database(CapQuyen cq)
-        {
-            OracleConnection conn = Connect();
-            OracleCommand orc = new OracleCommand();
-            orc.Connection = conn;
-            orc.CommandText = "sp_grant_role";
-            orc.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2)).Value = $"{cq.username}";
-            orc.Parameters.Add(new OracleParameter("name_privs", OracleDbType.Varchar2)).Value = $"{cq.name_privs}";
-            orc.CommandType = System.Data.CommandType.StoredProcedure;
-            orc.ExecuteNonQuery();
-            conn.Close();
-            return cq;
-        }
+
         //Revoke quyen cho role
         public CapQuyen Revoke_Priv_Role_In_Database(CapQuyen cq)
         {
@@ -287,61 +263,8 @@ namespace Data_Access_Layer
             conn.Close();
             return cq;
         }
-        public List<USER_OBJECT> GetAllUserObject()
-        {
-            var userTables = new List<USER_OBJECT>();
-            OracleConnection conn = Connect();
-            OracleCommand orc = new OracleCommand();
-            orc.Connection = conn;
-            orc.CommandText = "SELECT OBJECT_NAME FROM USER_OBJECTS WHERE OBJECT_TYPE IN ('TABLE', 'FUNCTION', 'PROCEDURE', 'VIEW')";
-            var er = orc.ExecuteReader();
-            while (er.Read())
-            {
-                userTables.Add(new USER_OBJECT(er.GetString(0)));
-            }
-            conn.Close();
-            return userTables;
-        }
-        //Vy
-        public bool Audit(string username, List<string> actions, bool successful, bool notsuccessful)
-        {
-            OracleConnection conn = Connect();
-            try
-            {
-                OracleCommand orc = new OracleCommand();
-                orc.Connection = conn;
-                string action = "";
-                foreach (var item in actions)
-                {
-                    action += item + ",";
-                }
-                action = action.Remove(action.Length - 1);
 
-                orc.CommandText = $"AUDIT {action} BY {username}";
-                orc.ExecuteNonQuery();
 
-                if (successful)
-                {
-                    orc.CommandText = $"AUDIT {action} BY {username} WHENEVER SUCCESSFUL";
-                    orc.ExecuteNonQuery();
-                }
-
-                if (notsuccessful)
-                {
-                    orc.CommandText = $"AUDIT {action} BY {username} WHENEVER NOT SUCCESSFUL";
-                    orc.ExecuteNonQuery();
-                }
-                orc.ExecuteNonQuery();
-                conn.Close();
-                return true;
-            }
-            catch (Exception)
-            {
-                conn.Close();
-                return false;
-            }
-        }
-        //Phương
         public List<Entity_Object.Object> Get_Objects_From_Database()
         {
             var objects = new List<Entity_Object.Object>();

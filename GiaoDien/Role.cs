@@ -22,7 +22,7 @@ namespace GiaoDien
             this.Hide();
             Form tao_role = new TaoRole();
             tao_role.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button_XoaRole_Click(object sender, EventArgs e)
@@ -30,7 +30,7 @@ namespace GiaoDien
             this.Hide();
             Form drop_role = new DropRole();
             drop_role.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button_XemDsRole_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace GiaoDien
             this.Hide();
             Form Dsrole = new DsRole();
             Dsrole.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button_CapQuyenUser_Click(object sender, EventArgs e)
@@ -46,7 +46,7 @@ namespace GiaoDien
             this.Hide();
             Form Grantrole = new GrantRole();
             Grantrole.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button_ThongTinVeQuyenUser_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace GiaoDien
             this.Hide();
             Form fqr = new FormQuyenRole();
             fqr.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
 
@@ -63,7 +63,7 @@ namespace GiaoDien
             this.Hide();
             Form f = new Quyen_Role();
             f.ShowDialog();
-            this.Close();
+            this.Show();
         }
     }
 }

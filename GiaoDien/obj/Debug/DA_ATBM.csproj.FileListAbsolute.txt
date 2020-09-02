@@ -108,3 +108,33 @@ C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.p
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Entity_Object.pdb
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.pdb
 C:\Users\vinht\Desktop\AN TOAN\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CopyComplete
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe.config
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\bin\Debug\GiaoDien.exe
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\bin\Debug\GiaoDien.pdb
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.dll
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\bin\Debug\Business_Logic_Layer.pdb
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\bin\Debug\Entity_Object.pdb
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\bin\Debug\Data_Access_Layer.pdb
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csprojAssemblyReference.cache
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DropRole.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DropUser.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DsRole.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.DsUser.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormAdmin.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormObject.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenRole.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.FormQuyenUser.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantPrivs.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantRole.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.GrantRole_User.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Properties.Resources.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Quyen_Role.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.Role.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.TaoRole.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.TaoUser.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.User.resources
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.GenerateResource.cache
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CoreCompileInputs.cache
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\DA_ATBM.csproj.CopyComplete
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.exe
+C:\Users\vinht\Desktop\PhanHe1\GiaoDien\obj\Debug\GiaoDien.pdb

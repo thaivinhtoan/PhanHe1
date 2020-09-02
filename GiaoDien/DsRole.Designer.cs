@@ -86,7 +86,6 @@
             this.Name = "DsRole";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DsRole";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DsRole_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

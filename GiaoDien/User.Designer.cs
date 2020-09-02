@@ -56,7 +56,7 @@
             this.button_CapQuyenUser.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button_CapQuyenUser.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button_CapQuyenUser.Location = new System.Drawing.Point(353, 99);
-            this.button_CapQuyenUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_CapQuyenUser.Margin = new System.Windows.Forms.Padding(2);
             this.button_CapQuyenUser.Name = "button_CapQuyenUser";
             this.button_CapQuyenUser.Size = new System.Drawing.Size(136, 119);
             this.button_CapQuyenUser.TabIndex = 2;
@@ -72,7 +72,7 @@
             this.button_XoaUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_XoaUser.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button_XoaUser.Location = new System.Drawing.Point(182, 249);
-            this.button_XoaUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_XoaUser.Margin = new System.Windows.Forms.Padding(2);
             this.button_XoaUser.Name = "button_XoaUser";
             this.button_XoaUser.Size = new System.Drawing.Size(138, 119);
             this.button_XoaUser.TabIndex = 4;
@@ -89,7 +89,7 @@
             this.button_ThongTinVeQuyenUser.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button_ThongTinVeQuyenUser.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button_ThongTinVeQuyenUser.Location = new System.Drawing.Point(9, 249);
-            this.button_ThongTinVeQuyenUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_ThongTinVeQuyenUser.Margin = new System.Windows.Forms.Padding(2);
             this.button_ThongTinVeQuyenUser.Name = "button_ThongTinVeQuyenUser";
             this.button_ThongTinVeQuyenUser.Size = new System.Drawing.Size(138, 119);
             this.button_ThongTinVeQuyenUser.TabIndex = 3;
@@ -106,7 +106,7 @@
             this.button_XemDsUser.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button_XemDsUser.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button_XemDsUser.Location = new System.Drawing.Point(9, 99);
-            this.button_XemDsUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_XemDsUser.Margin = new System.Windows.Forms.Padding(2);
             this.button_XemDsUser.Name = "button_XemDsUser";
             this.button_XemDsUser.Size = new System.Drawing.Size(138, 119);
             this.button_XemDsUser.TabIndex = 0;
@@ -122,7 +122,7 @@
             this.button_TaoUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_TaoUser.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button_TaoUser.Location = new System.Drawing.Point(182, 99);
-            this.button_TaoUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_TaoUser.Margin = new System.Windows.Forms.Padding(2);
             this.button_TaoUser.Name = "button_TaoUser";
             this.button_TaoUser.Size = new System.Drawing.Size(138, 119);
             this.button_TaoUser.TabIndex = 1;
@@ -139,11 +139,11 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.Location = new System.Drawing.Point(353, 249);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 119);
             this.button1.TabIndex = 5;
-            this.button1.Text = "CẤP/THU HỒI QUYỀN USER";
+            this.button1.Text = "CẤP/THU HỒI ROLE USER";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button1.UseMnemonic = false;
             this.button1.UseVisualStyleBackColor = false;
@@ -163,7 +163,7 @@
             this.Controls.Add(this.button_XemDsUser);
             this.Controls.Add(this.button_TaoUser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "User";

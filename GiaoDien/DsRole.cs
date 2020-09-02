@@ -26,13 +26,5 @@ namespace GiaoDien
             comboBox_ListRole.DisplayMember = "username";
         }
 
-        private void DsRole_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form f = new Role();
-            f.ShowDialog();
-            this.Close();
-        }
-
     }
 }
